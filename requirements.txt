@@ -1,0 +1,6 @@
+streamlit
+beyondllm
+validators
+llama-index-readers-web
+youtube_transcript_api
+llama-index-readers-youtube-transcript
