@@ -7,3 +7,4 @@ llama-index-readers-youtube-transcript
 llama-index-embeddings-azure_openai
 anthropic
 llama-index-embeddings-fastembed
+docx2txt
