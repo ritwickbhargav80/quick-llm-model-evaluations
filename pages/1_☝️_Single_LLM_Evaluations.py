@@ -22,7 +22,6 @@ import nltk
 import validators
 import streamlit as st
 import streamlit.components.v1 as components
-from beyondllm import source, retrieve, embeddings, llms, generator
 
 # Define the path to the directory where NLTK data will be stored
 nltk_data_dir = "../resources/nltk_data_dir/"
@@ -35,6 +34,8 @@ nltk.data.path.append(nltk_data_dir)
 
 # Download the 'punkt' tokenizer models to the specified directory
 nltk.download('punkt', download_dir=nltk_data_dir)
+
+from beyondllm import source, retrieve, embeddings, llms, generator
 
 def format_rag_triad_evals(evals: str) -> dict:
     """

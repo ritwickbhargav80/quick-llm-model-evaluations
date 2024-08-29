@@ -21,7 +21,6 @@ import time
 import nltk
 import validators
 import streamlit as st
-from beyondllm import source, retrieve, embeddings, llms, generator
 
 # Define the path to the directory where NLTK data will be stored
 nltk_data_dir = "../resources/nltk_data_dir/"
@@ -34,6 +33,8 @@ nltk.data.path.append(nltk_data_dir)
 
 # Download the 'punkt' tokenizer models to the specified directory
 nltk.download('punkt', download_dir=nltk_data_dir)
+
+from beyondllm import source, retrieve, embeddings, llms, generator
 
 # Dictionary to keep track of models skipped due to errors
 skipped_due_to_err = {}
