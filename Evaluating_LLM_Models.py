@@ -81,7 +81,7 @@ versions = [
 
       This release enhances the app's functionality by allowing simultaneous evaluations across multiple LLMs, providing a more comprehensive analysis. Future updates will continue to focus on improving the user experience and adding new features.
 
-      **Full Changelog**: https://github.com/ritwickbhargav80/quick-llm-model-evaluations/commits/v1.1.0
+      **Full Changelog**: https://github.com/ritwickbhargav80/quick-llm-model-evaluations/compare/v1.0.0...v1.1.0
     """
 },
     {
